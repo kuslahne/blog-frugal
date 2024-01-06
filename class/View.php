@@ -29,7 +29,6 @@ class View {
                 echo '<a href="index.php?action=logout">Logout</a> '.UNAME;
             } else {
                 echo '<a href="index.php?action=login">Login</a>';
-                echo '<a href="index.php?action=signup">SignUp</a>';
             }
             echo "\n";
         ?>
@@ -45,7 +44,7 @@ class View {
 
             </div>
             <div id="footer">
-                Copyright &copy; 2020 halojoy
+                Copyright &copy; 2024 Blog Frugal
             </div>
         </div>
         </body>
@@ -85,7 +84,7 @@ class View {
             echo '</span>'."\n";
         }
         echo '<div class="image">'.$imageOutput.'</div>'."\n";
-        echo $cebe->parse($post->body)."\n";
+        echo $cebe->convert($post->body)."\n";
         echo '<div class="clearboth"></div>';
         echo '</div>'."\n";
         echo '<div class="bottomline"></div>'."\n\n";

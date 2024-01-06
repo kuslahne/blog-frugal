@@ -105,6 +105,9 @@ input, textarea {
 #pager a {
     font-weight: bold;
 }
-
+.resp img {
+  margin-top: 20px;
+  width: 100%;
+}
 
 
